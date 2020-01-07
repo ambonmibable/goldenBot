@@ -1,5 +1,5 @@
 return {messageCreate = function(msg)
-  if msg.content == "bye" then
-    msg:reply("woah!")
+  if msg.content == "ver" then
+    msg:reply("no way!")
   end
 end}
