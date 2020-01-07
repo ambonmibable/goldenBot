@@ -4,4 +4,5 @@
 ]]
 
 return {
+  test = "modules/test"
   }
