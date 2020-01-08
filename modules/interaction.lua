@@ -20,7 +20,7 @@ return {
 						}
 					},
 					footer = {
-						text = ":)"
+						text = ":("
 					},
 					color = 0x000000 -- hex color code
 								}
