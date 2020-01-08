@@ -1,7 +1,7 @@
 return {
   messageCreate = function(msg)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
-    
+    print("awoke")
     if msg.content == "hug" then
 			print("attempt")
         msg:reply{
