@@ -1,5 +1,5 @@
 return {
-  messageCreated = function(msg)
+  messageCreate = function(msg)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
     
     if msg.content == "hug" then
