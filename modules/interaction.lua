@@ -1,6 +1,5 @@
-c = 0
 return {
-  messageCreate = function(msg)
+  messageCreate = function(msg,c)
 	c = _G["client"]
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
     print("awoke")
@@ -34,5 +33,5 @@ return {
     Add Pat
     Add Slap
    ]]
-  end, getclient = function(cl) c=cl end
+  end
 }
