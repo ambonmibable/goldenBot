@@ -1,3 +1,4 @@
+c = 0
 return {
   messageCreate = function(msg)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
