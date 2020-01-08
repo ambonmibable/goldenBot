@@ -2,7 +2,7 @@ return {
   messageCreated = function(msg)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
     
-    if msg.content == "!!hug" then
+    if msg.content == "hug" then
         msg:reply{
           embed={
             title="Interaction",
