@@ -10,7 +10,7 @@ return {
 						description="Bot Interaction",
 						author={
 							name=c.user.username,
-							icon_url=c.member.avatarURL
+							icon_url=c.user.avatarURL
 						},
 					fields = {
 						{
