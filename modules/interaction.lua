@@ -1,6 +1,5 @@
-local c = require("discordia").Client()
 return {
-  messageCreated = function(msg)
+  messageCreated = function(msg,t)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
     
     if msg.content == "!!hug" then
