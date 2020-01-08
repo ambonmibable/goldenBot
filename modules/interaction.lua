@@ -10,7 +10,18 @@ return {
 		author={
 			name=c.user.username,
 			icon_url=c.member.avatarURL
-		}
+		},
+		fields = {
+			{
+				name = "test",
+				value = "nnn",
+				inline = false
+			}
+		},
+		footer = {
+			text = ":)"
+		},
+		color = 0x000000 -- hex color code
           }
         }
       end
