@@ -7,10 +7,11 @@ return {
         msg:reply{
           embed={
             title="Interaction",
-						description="Bot Interaction",
-						author={
-							name=c.user.username,
-							icon_url=c.member.avatarURL
+		description="Bot Interaction",
+		author={
+			name=c.user.username,
+			icon_url=c.member.avatarURL
+		}
           }
         }
       end
