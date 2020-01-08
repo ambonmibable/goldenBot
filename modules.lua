@@ -4,5 +4,6 @@
 ]]
 
 return {
-  test = "modules/test"
+  test = "modules/test",
+  inter = "modules/interaction"
   }
