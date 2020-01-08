@@ -1,3 +1,4 @@
+c = 0
 return {
   messageCreate = function(msg)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
@@ -9,8 +10,8 @@ return {
             title="Interaction",
 						description="Bot Interaction",
 						author={
-							name=client.user.username,
-							icon_url=client.member.avatarURL
+							name=c.user.username,
+							icon_url=c.member.avatarURL
 						},
 					fields = {
 						{
