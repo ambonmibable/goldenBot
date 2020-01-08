@@ -31,5 +31,5 @@ return {
     Add Pat
     Add Slap
    ]]
-  end
+  end, getclient = function(cl) c=cl end
 }
