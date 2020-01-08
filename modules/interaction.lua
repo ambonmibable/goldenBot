@@ -1,6 +1,5 @@
 return {
   messageCreate = function(msg,c)
-	c = _G["client"]
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
     print("awoke")
     if msg.content == "hug" then
