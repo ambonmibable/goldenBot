@@ -7,5 +7,5 @@ return {messageCreate = function(m)
     save.set("level", m.author.id, save.get("level",m.author.id,1)+1)
     m:reply("level up!")
   end
-  if m.content == "+!!xp" then m:reply(save.get("xp",m.author.id,0)) end
+  if m.content == "+!!xp" then m:reply(save.get("level",m.author.id)..", ".. save.get("xp",m.author.id,0)) end
 end}
