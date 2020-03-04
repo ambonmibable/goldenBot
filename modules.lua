@@ -5,5 +5,6 @@
 
 return {
   test = "modules/test",
-  inter = "modules/interaction"
+  inter = "modules/interaction",
+  xp = "modules/xp"
   }
