@@ -1,9 +1,7 @@
 return {
   messageCreate = function(msg,c)
     local cmd, arg = string.match(msg.content, '(%S+) (.*)')
-    print("awoke")
     if msg.content == "hug" then
-			print("attempt")
         msg:reply{
           embed={
             title="Interaction",
