@@ -1,2 +1,2 @@
-return {name="Pink Panda 1", 
-  log="+ Made Changelog"}
+return {name="Pink Panda 2", 
+  log="+ Update Changelog"}
