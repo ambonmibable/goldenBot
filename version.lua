@@ -1,1 +1,2 @@
-return "Pink Panda 1"
+return {name="Pink Panda 1", 
+  log="+ Made Changelog"}
